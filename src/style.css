@@ -62,3 +62,13 @@ nav {
     margin-bottom: 10px;
 }
 
+/* Estilos del footer */
+#footerAuthor {
+    border: 2px solid aqua;
+    padding: 3px;
+}
+
+.footer_Parrafo {
+     border: 1px solid brown;
+}
+
