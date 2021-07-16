@@ -14,21 +14,21 @@
         <!--Aquí empieza la cabecera de nuestra pagina-->
         <header> 
             <nav> <!--menú de navegación-->
-                <ul> <!--para definir que es una lista desordenada y para la ordenada es ol-->
-                    <li> <!--etiqueta de lista, no es una liga-->
-                        <a href="#">Inicio</a> <!--etiqueta ancor por si mismas son ligas-->
+                <ul class="nav_Header"> <!--para definir que es una lista desordenada y para la ordenada es ol-->
+                    <li class="list-item_Header"> <!--etiqueta de lista, no es una liga-->
+                        <a class="link_Header" href="#">Inicio</a> <!--etiqueta ancor por si mismas son ligas-->
                     </li>
-                    <li>
-                        <a href="#">Contacto</a>
+                    <li class="list-item_Header">
+                        <a class="link_Header" href="#">Contacto</a>
                     </li>
-                    <li>
-                        <a href="#">Nosotros</a>
+                    <li class="list-item_Header">
+                        <a class="link_Header" href="#">Nosotros</a>
                     </li>
                 </ul> 
             </nav> 
         </header>
         <!--aquí empieza el contenido principal de nuestra pagina-->
-        <main> 
+        <main id="mainContent"> 
             <article> <!--etiqueta para indicar que contiene un articulo-->
                 <h2>Título del articulo</h2>
                 <div>
@@ -40,7 +40,7 @@
                 <div>
                     <h3>Subtítulo del articulo</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium, rerum eligendi porro eos eveniet quisquam, unde placeat illo at sed! Modi voluptate delectus eum explicabo quibusdam ut eligendi commodi.</p>
-                    <img src="../assets/perrito.jpg" alt="Perrito serio, perrito gracioso">
+                    <img src="../assets/perrito.jpg" alt="Perrito feliz">
                 </div>
             </article>
             <!--aquí empieza el aside de mi pagina (menú lateral)-->
@@ -60,8 +60,8 @@
             </aside>
         </main>
         <!--Aquí comienza el pie de pagina (footer)-->
-        <footer>
-            <p>copyright 2021. Diana Leyva</p>
+        <footer id="footerAuthor">
+            <p class="footer_Parrafo">copyright 2021. Diana Leyva</p>
         </footer>
     </body>
 </html> <!--aqui termina el archivo html-->

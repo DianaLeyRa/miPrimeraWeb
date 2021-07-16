@@ -1,3 +1,64 @@
 body {
     font-family: 'Qahiri', sans-serif;
 }
+
+/*normalizando CSS, cualquiera de las dos formas está bien y sirve para trabajar de una manera más limpia, nota el * es selector universal
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Armando estructura de cajas*/
+body {
+    border: 3px solid red;
+    margin: 5px;
+    padding: 10px;
+}
+
+/*Estilos del header*/
+header {
+    border: 3px solid blue;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/*selector de etiqueta*/
+nav {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+/* Selector de clase lleva siempre un . (punto) antes del nombre de la clase: */
+.nav_Header {
+    border: 2px dashed rgb(255, 0, 221);
+    padding: 25px;
+}
+
+.list-item_Header {
+    border: 2px solid yellowgreen;
+    padding: 10px;
+}
+
+.link_Header {
+    border: 1px solid purple;
+    padding: 5px;
+}
+
+/* Estilos del contenido (Main) */
+/* Selector de ID lleva siempre una # (Almohadilla) antes del nombre del ID: */
+#mainContent {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
