@@ -69,13 +69,28 @@ h2 {
     padding: 3px;
 }
 
-.div_Title {
+#divTitle {
     border: 2px solid rebeccapurple;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+#subtitleTitle {
+    border: 2px dashed rgb(165, 42, 73);
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.paragraph_Subtitle {
+    border: 2px solid rgb(243, 239, 21);
+    margin-bottom: 5px;
+    padding: 3px;
 }
 
 /* Estilos del footer */
 #footerAuthor {
     border: 2px solid aqua;
+    margin-bottom: 5px;
     padding: 3px;
 }
 
