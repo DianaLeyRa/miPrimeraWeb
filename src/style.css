@@ -64,7 +64,7 @@ nav {
 }
 
 h2 {
-    border: 2px dashed rgb(67, 165, 42);
+    border: 5px double rgb(67, 165, 42);
     margin-bottom: 5px;
     padding: 3px;
 }
@@ -76,7 +76,7 @@ h2 {
 }
 
 #subtitleTitle {
-    border: 2px dashed rgb(165, 42, 73);
+    border: 5px groove rgb(165, 42, 73);
     margin-bottom: 5px;
     padding: 3px;
 }
@@ -89,6 +89,24 @@ h2 {
 
 img {
     border: 2px solid rgb(107, 7, 62);
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+#relationList {
+    border: 2px inset rgb(4, 107, 47);
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.list_Relation {
+    border: 2px dashed orangered;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.link_Relation {
+    border: 2px solid fuchsia;
     margin-bottom: 5px;
     padding: 3px;
 }
