@@ -60,6 +60,17 @@ nav {
 #mainContent {
     border: 2px solid black;
     margin-bottom: 10px;
+    padding: 3px;
+}
+
+h2 {
+    border: 2px dashed rgb(67, 165, 42);
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.div_Title {
+    border: 2px solid rebeccapurple;
 }
 
 /* Estilos del footer */
